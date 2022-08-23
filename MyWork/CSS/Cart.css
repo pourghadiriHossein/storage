@@ -1,0 +1,73 @@
+.finalCart {
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+    background-color: rgb(232, 232, 232);
+}
+.finalCart > h1 {
+    text-align: right;
+    margin-right: 10%;
+    padding: 5% 0% ;
+}
+.finalCart > table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.finalCart > table > thead {
+    background-color: white;
+    border-radius: 2px;
+}
+.finalCart > table > thead > tr > th {
+    font-size: 16px;
+    width: 15%;
+    padding: 10px 0;
+}
+.finalCart > table > tbody {
+    border-radius: 2px;
+}
+.finalCart > table > tbody > tr > td {
+    font-size: 16px;
+    width: 15%;
+    padding: 10px 0;
+    vertical-align: center;
+}
+.finalCart > table > tbody > tr {
+    border-bottom: 1px solid rgba(15, 72, 87, 0.1);
+    width: 95%;
+}
+.finalCart > table > tbody > tr:last-child {
+    border-bottom: none;
+}
+.removeImage {
+    width: 10%;
+    height: auto;
+    cursor: pointer;
+}
+.productImage {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 9px rgba(15, 72, 87, 0.5);
+}
+.finalCart > table > tbody > tr > td > input[type="button"] {
+    background-color: transparent;
+    width: 20%;
+    padding: 1% 0;
+    font-size: large;
+    border: 1px solid rgba(100, 99, 99, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.finalCart > table > tbody > tr > td > input[type="text"] {
+    background-color: transparent;
+    width: 20%;
+    padding: 3% 0;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: center;
+}
+.finalCart > table > tbody > tr > td > input[type="button"]:hover {
+    border: 1px solid #1f9e67;
+}
