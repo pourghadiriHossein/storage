@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            outline: 0;
+            margin: 0;
+            border: 0;
+            padding: 0;
+            direction: rtl;
+            background-color: gainsboro;
+            color: black;
+        }
+        button {
+            cursor: pointer;
+            padding: 2%;
+            border-radius: 5px;
+            background-color: transparent;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+            border: none;
+        }
+        button:hover {
+            border: 1px solid white;
+        }
+        .topBar {
+            width: 100%;
+            background-color: rgb(87, 87, 246);
+            padding: 1% 0;
+            height: auto;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            z-index: 10;
+        }
+        .part {
+            display: inline-block;
+            width: 45%;
+            color: white;
+        }
+        .start {
+            width: 100%;
+            text-align: center;
+            padding-top: 5%;
+        }
+        .start > h1 {
+            font-weight: bold;
+            font-size: 42px;
+        }
+    </style>
+</head>
+<body>
+    <div class="topBar">
+        <div class="part">
+            <button>ثبت نام</button>
+            <button>ورود</button>
+        </div>
+        <div class="part">
+            <p>امروز ۲۵ شهریور سال ۱۴۰۱</p>
+        </div>
+    </div>
+    <div class="start">
+        <h1>خوش آمدید</h1>
+    </div>
+</body>
+</html>
